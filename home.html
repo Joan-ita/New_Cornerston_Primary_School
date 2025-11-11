@@ -2,99 +2,37 @@
 <html>
     <head>
         <title>New Cornerstone Primary School</title>
-        <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-         body {
-            font-family: 'Century Gothic', sans-serif;
-        }
-
-        .navbar {
-            display: flex;
-            position: sticky;
-            align-items: center;
-            justify-content: space-between;
-            top: 0px;
-            background: #f05213;
-            background-blend-mode: darken;
-            background-size: cover;
-            color: white;
-            padding: 10px 20px;
-        }
-
-        .nav-list {
-            display: flex;
-            list-style: none;
-        }
-
-        .nav-list li {
-            margin-right: 20px;
-        }
-
-        .nav-list li:last-child {
-            margin-right: 0;
-        }
-
-        .nav-list li a {
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            transition: color 0.3s ease-in-out;
-        }
-
-        .nav-list li a:hover {
-            color: #ffd700;
-            /* Change the color on hover */
-        }
-
-        .rightNav {
-            text-align: right;
-        }
-
-        #search {
-            padding: 8px;
-            font: century;
-            font-size: 16px;
-            border: 2px solid #fff;
-            border-radius: 5px;
-        }
-
-        .btn {
-            background-color: #ffd700;
-            color: #000;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .btn:hover {
-            background-color: #000;
-            /* Change the background color on hover */
-            color: #ffd700;
-        }
-        #logo {
-  height: 30px; /* Adjust height as needed */
-  
-}
-    </style>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     </head>
     <body>
-    <nav class="navbar">
-        <img src="C:\Users\Administrator\Desktop\Joan\pic.jpg" id="logo" alt="Company Logo">
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="rightNav">
-            <input type="text" name="search" id="search" placeholder="type here">
-            <button class="btn btn-sm">Search</button>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo"> CornerStone</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="text" name="search" id="search" placeholder="Type here">
+                <a href="#"> <button class="btn">Search</button></a>
+            </div> 
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>           
         </div>
-    </nav>
+        <div class="content">
+            <h1>New Cornerstone<br><span>Primary</span><br>School</h1>
+            <p class="par">
+                This is an educational institution that provides the first stage of formal education <br>for children, typically between the ages of 5 and 12 years.<br> It lays the foundation for lifelong learning <br> by helping learners develop literacy, <br> numeracy, social skills, and emotional<br> maturity.
+            </p>
+            <button class="cn"><a href="#">JOIN US</a></a></button>
+    </div>       
 </body>
 </html>
