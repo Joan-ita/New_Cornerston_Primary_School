@@ -15,7 +15,7 @@
         .navbar {
             width: 90%;
             max-width: 1200px;
-            margin: auto;
+            margin: 50px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -274,5 +274,39 @@
           display: block;
         }
        }
+        .about{
+            margin: 0px;
+            width: 100%;
+            background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(pic.png) no-repeat center/cover;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .about-us{
+          width: 500px;
+          margin: 50px;
+          font-size: 30px;
+          padding-top: 10px;
+          height: 20px;
+          color: #ff5e00;
+        }
+        .mission{
+          width: 500px;
+          margin: 50px;
+        }
+        .mission h2{
+          font-size: 30px;
+          letter-spacing: 3px;
+          margin-top: 25px;
+        }
 
+
+          <h2 style="text-align:center; color:white">Our Core Values</h2> 
+          <h2 style="text-align:center; color:white">Excellence</h2>
+          <p>We strive for the highest standards in teaching, learning, and discipline.</p>
+          <h2 style="text-align:center; color:white">Respect</h2>
+          <p>We encourage kindness, empathy, and appreciation for diversity.</p>
+          <h2 style="text-align:center; color:white">Integrity</h2>
+          <p>We promote honesty, responsibility, and strong moral character.</p>
+          <p>We believe that every child has unique potential waiting to be discovered and nurtured. Founded on the principles of excellence, integrity, and creativity, our school provides a safe and stimulating environment where learners grow academically, socially, and emotionally.</p>  
 
